@@ -21,7 +21,7 @@ More info about TR-064: http://www.avm.de/de/Extern/files/tr-064/AVM_TR-064_firs
 ## Install
 
 <pre>
-  npm install tr-064
+  npm install @solo-md/tr-064
 </pre>
 
 ## It`s simple
@@ -29,7 +29,7 @@ More info about TR-064: http://www.avm.de/de/Extern/files/tr-064/AVM_TR-064_firs
 Connect to the device and read a Service.
 
 ```javascript
-var tr = require("tr-064");
+var tr = require("@solo-md/tr-064");
 var tr064 = new tr.TR064();
 tr064.initTR064Device("fritz.box", 49000, function (err, device) {
     if (!err) {
